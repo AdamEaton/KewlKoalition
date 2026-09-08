@@ -3,7 +3,7 @@ A music streaming bot that has been partially thwarted by Youtube's recent anti-
 
 **Due to recent Youtube updates, only songs previously played and cached by the application can be streamed on Discord.**
 
-See Forging a Cached Playlist for information on formatting songs as the bot does for its cache.
+See [Forging a Cached Playlist](https://github.com/AdamEaton/KewlKoalition/tree/main/KewlKoalition/KewlTewns#forging-a-cached-playlist) for information on formatting songs as the bot does for its cache.
 
 ## Features
 - Queue up songs from Youtube by supplying their video URLs
@@ -15,7 +15,7 @@ See Forging a Cached Playlist for information on formatting songs as the bot doe
 
 ## Quick Setup Guide
 To integrate this bot into a Discord server:
-1. Follow the Quick Setup Guide in the main README file
+1. Follow the [Quick Setup Guide in the main README file](https://github.com/AdamEaton/KewlKoalition/blob/main/README.md#quick-setup-guide)
 2. Add the following data to the configuration file:
 	1. For each server the bot is to be included in, the `servers` array should have a corresponding element with the following data:
 		1. `id`: The Server ID of the requisite server
@@ -27,7 +27,7 @@ To integrate this bot into a Discord server:
 			1. `name`: The name of the command, to be displayed to users in the command list and typed by users invoking the command
 			2. `description`: A brief description of the command, to be displayed to users in the command list
 			3. `body`: A list of commands to issue to the bot
-3. Create a Google Cloud project for the bot to access Google Sheets through
+3. Create a [Google Cloud](https://developers.google.com/) project for the bot to access Google Sheets through
 	1. Download and place the project's OAuth `credentials.json` file in the application folder
 
 ## Building a Google Sheets Playlist
