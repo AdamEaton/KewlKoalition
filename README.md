@@ -19,11 +19,11 @@ A music streaming bot that has been partially thwarted by Youtube's recent anti-
 A Twitch stream announcing bot, letting users know when community members or other interesting streams begin.
 
 ### KewlSquid
-A Splatoon bot that fetches details about the current game modes in Splatoon 3 (powered by OatmealDome's JelonzoBotDX API).
+A Splatoon bot that fetches details about the current game modes in Splatoon 3 (powered by [OatmealDome's JelonzoBotDX API](https://splatoon.oatmealdome.me/)).
 
 ## Quick Setup Guide
 To integrate a bot into a Discord server:
-1. Create an application in the Discord Developer Hub
+1. Create an application in the [Discord Developer Portal](https://discord.com/developers/applications)
 2. In the General Information tab, give the application an icon, name, and description.
 3. In the Installation tab, set the installation context to `Guild Install`, and the Install Link to `None`.
 4. In the Bot Tab:
@@ -40,4 +40,4 @@ To integrate a bot into a Discord server:
 7. Copy the included `config_template.json` file to the default config path `.\Configs\config.json` (or use another name if working with multiple configurations)
 8. Add the Discord bot token from step `4.iv` under the `discord/token` key
 9. Expand the `servers` array to include one element for each server the bot is to be included in
-10. Refer to each project's `README` for information on additional setup requirements (or to the `README` in KewlKommon for information on building a custom bot using the framework)
+10. Refer to each project's `README` for information on additional setup requirements (or to [the `README` in KewlKommon](https://github.com/AdamEaton/KewlKoalition/blob/main/KewlKoalition/KewlKommon/README.md) for information on building a custom bot using the framework)
