@@ -11,7 +11,7 @@ To integrate this bot into a Discord server:
 1. Follow the [Quick Setup Guide in the main README file](https://github.com/AdamEaton/KewlKoalition/blob/main/README.md#quick-setup-guide)
 2. Add the following data to the configuration file:
 	1. For each server the bot is to be included in, the `servers` array should have a corresponding element with the following data:
-		1. `id`: The Server ID of the requisite server
+		1. `id`: The Server ID of the target server
 		2. `roles`: A subobject containing Role IDs for the following keys:
 			1. `admin`: A role granting access to admin-only features of the bot
 			2. `bot`: A role assigned to all bot users in the server

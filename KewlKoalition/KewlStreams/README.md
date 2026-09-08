@@ -17,7 +17,7 @@ To integrate this bot into a Discord server:
 		4. `accessToken`: An empty string (to be automatically updated by the bot)
 		5. `refreshToken`: An empty string (to be automatically updated by the bot)
 	1. For each server the bot is to be included in, the `servers` array should have a corresponding element with the following data:
-		1. `id`: The Server ID of the server
+		1. `id`: The Server ID of the target server
 		2. `roles`: A subobject containing Role IDs for the following keys:
 			1. `admin`: A role granting access to admin-only features of the bot
 		3. `streams`: An array of Twitch IDs that should be announced by the bot in this server
