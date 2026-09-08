@@ -52,7 +52,7 @@ The columns must be in a fixed order to be correctly parsed by the bot. In order
 Because Youtube no longer reliably serves Youtube videos to anonymous connections, the bot is only able to play songs that have been previously cached by it.
 
 The application's audio cache is stored in the directory `.\Tewns\`. Cached tracks are stored as \*.mp3 files directly inside this folder.
-There is a set of prepared example songs available to populate the cache for testing purposes.
+Included is a set of prepared example songs available to populate the cache for testing purposes. These tracks can be played by passing the URL `https://www.youtube.com/playlist?list=PLnF_5UKxdwAAAdrAb-ak1CcKqFCxTN3Rf` to the `/play list` command.
 An existing \*.mp3 file can be used to forge a cached track using the following procedure:
 1. A Youtube-style ID must be selected for the song
 	1. IDs of existing videos as well as arbitrarily constructed IDs can both be used
