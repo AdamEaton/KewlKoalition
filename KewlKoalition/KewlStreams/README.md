@@ -6,8 +6,8 @@ A Twitch stream announcing bot, letting users know when community members or oth
 
 ## Quick Setup Guide
 To integrate this bot into a Discord server:
-1. Follow the Quick Setup Guide in the main README file
-2. Create a Twitch application for the bot to access Twitch through
+1. Follow the [Quick Setup Guide in the main README file](https://github.com/AdamEaton/KewlKoalition/blob/main/README.md#quick-setup-guide)
+2. Create a [Twitch application](https://dev.twitch.tv/) for the bot to access Twitch through
 	1. Set the OAuth Redirect URL to `http://localhost:8080/redirect/`
 3. Add the following data to the configuration file:
 	1. A `twitch` key with the following data:
