@@ -1,0 +1,25 @@
+// Application Config Name
+{
+	"discord": {
+		"token": "Your.Bot.Token.Here",
+	},
+	"servers": [
+		{
+			// Server Name
+			"id": 0,
+			"roles": {
+				"admin": 0,
+				"bot": 0,
+				"convict": 0,
+			},
+			"channels": {
+				"tempCategory": 0,
+				"jail": 0,
+			},
+			"tempExceptions": [
+				// Channel Name
+				0,
+			],
+		},
+	],
+}

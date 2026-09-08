@@ -1,0 +1,26 @@
+// Application Config Name
+{
+	"discord": {
+		"token": "Your.Bot.Token.Here",
+	},
+	"twitch": {
+		"clientId": "YourTwitchClientIdHere",
+		"clientSecret": "YourTwitchClientSecretHere",
+		"redirectUri": "http://localhost:8080/redirect/",
+		"accessToken": "",
+		"refreshToken": "",
+	},
+	"servers": [
+		{
+			// Server Name
+			"id": 0,
+			"roles": {
+				"admin": 0,
+			},
+			"streams": [
+				// Stream Name
+				0,
+			],
+		},
+	],
+}

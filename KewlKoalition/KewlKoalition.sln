@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KewlKommon", "KewlKommon\KewlKommon.csproj", "{33C38474-CC81-4636-85E0-ADDABE176567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KewlTewns", "KewlTewns\KewlTewns.csproj", "{EE6C22A9-DFFC-433B-AA08-C215D13EF942}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KewlBot", "KewlBot\KewlBot.csproj", "{842BE95A-9442-44C0-939C-9016B02FFE82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KewlDice", "KewlDice\KewlDice.csproj", "{4E4B502A-430F-42E2-8E5F-D2A78BB15ACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KewlStreams", "KewlStreams\KewlStreams.csproj", "{79166F02-800B-44CA-A336-E84A0BEBD348}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KewlSquid", "KewlSquid\KewlSquid.csproj", "{B2980907-2A77-4EC4-A37D-54110ED799BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33C38474-CC81-4636-85E0-ADDABE176567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C38474-CC81-4636-85E0-ADDABE176567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C38474-CC81-4636-85E0-ADDABE176567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C38474-CC81-4636-85E0-ADDABE176567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE6C22A9-DFFC-433B-AA08-C215D13EF942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6C22A9-DFFC-433B-AA08-C215D13EF942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6C22A9-DFFC-433B-AA08-C215D13EF942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE6C22A9-DFFC-433B-AA08-C215D13EF942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{842BE95A-9442-44C0-939C-9016B02FFE82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842BE95A-9442-44C0-939C-9016B02FFE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842BE95A-9442-44C0-939C-9016B02FFE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842BE95A-9442-44C0-939C-9016B02FFE82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4B502A-430F-42E2-8E5F-D2A78BB15ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4B502A-430F-42E2-8E5F-D2A78BB15ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4B502A-430F-42E2-8E5F-D2A78BB15ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4B502A-430F-42E2-8E5F-D2A78BB15ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79166F02-800B-44CA-A336-E84A0BEBD348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79166F02-800B-44CA-A336-E84A0BEBD348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79166F02-800B-44CA-A336-E84A0BEBD348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79166F02-800B-44CA-A336-E84A0BEBD348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2980907-2A77-4EC4-A37D-54110ED799BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2980907-2A77-4EC4-A37D-54110ED799BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2980907-2A77-4EC4-A37D-54110ED799BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2980907-2A77-4EC4-A37D-54110ED799BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D80C48E1-659B-4F75-9CBE-FBE6DCDFBE39}
+	EndGlobalSection
+EndGlobal

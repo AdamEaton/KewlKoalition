@@ -1,0 +1,44 @@
+// Application Config Name
+{
+	"discord": {
+		"token": "Your.Bot.Token.Here",
+	},
+	"servers": [
+		{
+			// Server Name
+			"id": 0,
+			"roles": {
+				"admin": 0,
+			},
+			"commands": [
+				{
+					"name": "Your Command Name Here",
+					"description": "A brief description to display in the command browser.",
+					"body": [
+						// Play a song
+						// Add "true" as an additional argument to jump the queue and play the song next
+						"play song https://www.youtube.com/watch?v=Example-Song-Id",
+						// Play a Youtube playlist
+						// Add "true" as an additional argument to shuffle the playlist before enqueuing it
+						"play list https://www.youtube.com/playlist?list=Example-Playlist-Id",
+						// Play a Google Sheets playlist
+						// Add one of the following modes as an additional argument to control playback order:
+						//	"random": Play the tracks in a random order
+						//	"sequential": Play the tracks in the same order they appear in the list
+						//	"leastPlayed": Play lesser-played tracks before historically more common tracks
+						//	"leastRecent": Play tracks played longer ago before more recently played ones
+						"play sheet https://docs.google.com/spreadsheets/d/Example-Google-Sheets-List-Id",
+						// Enable/disable looping mode
+						"sequence loop true",
+						// Enable/disable personalization of Google Sheets playlists
+						"sequence personalize false",
+						// Reshuffle the song queue
+						"sequence reshuffle",
+						// Run another custom command
+						"run Another Command Name",
+					],
+				},
+			],
+		},
+	],
+}

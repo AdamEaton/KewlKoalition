@@ -1,0 +1,20 @@
+// Application Config Name
+{
+	"discord": {
+		"token": "Your.Bot.Token.Here",
+	},
+	"servers": [
+		{
+			// Server Name
+			"id": 0,
+			"roles": {
+				"admin": 0,
+				"bot": 0,
+				"dj": 0,
+			},
+			"commands": [
+				"name": ""
+			],
+		},
+	],
+}
