@@ -55,3 +55,7 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+KewlKoalition/.editorconfig
+KewlKoalition/KewlKoalition.slnLaunch.user
+KewlKoalition/.vs/
+*.user
