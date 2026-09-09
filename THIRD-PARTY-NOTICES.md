@@ -1,4 +1,4 @@
-#Third Party Notices
+# Third Party Notices
 This solution uses third-party material subject to the following licenses:
 
 ## opus.dll
